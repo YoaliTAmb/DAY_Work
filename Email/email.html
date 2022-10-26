@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+
+    <style type="text/css">
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        .cabeza{
+            background-color: #0852A4;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: auto;
+            justify-content: space-between;
+        }
+        .cabeza img{
+            border-radius: 35px;
+            margin: 10px;
+        }
+        .cabeza h1{
+            color: white;
+            padding-top: 1px;
+            padding-left: 20px;
+            font-size:xx-large;
+        }
+        
+        .contenido{
+            margin: 20px;
+        }
+
+        /*THANK**/
+        .thanks{
+            display: flex;
+            padding-top: 1rem;
+            
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        .thankYOU p{
+            text-align: justify;
+        }
+        .thankYOU img{
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        /*FIN THANK**/
+
+        /*Código**/
+        .tabla{
+            margin-left: 13px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-direction: column; 
+        }
+        .tabla h2{
+            font-size:larger;
+            color: #FF6A00;
+        }
+        .codigo{
+            background-color: #FF6A00;
+            color: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 0 1rem 0 1rem;
+            letter-spacing: 1px;
+        }
+        /*TABLA**/
+        table {
+            width: 60%;
+        }
+        thead{
+            background-color: #c1c1c1;
+            color: white;
+        }
+        th, td {
+            vertical-align: top;
+            text-align: left;
+            padding: 4px;
+        }
+        tbody tr:nth-child(even) {
+            background: WhiteSmoke;
+        }
+        tfoot{
+            background-color: #e8edf6;
+
+        }
+        /*FIN TABLA**/
+
+        .fecha{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        .date{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            position: relative; top:-10px;
+        }
+        .date img{
+            margin-right: 15px;
+        }
+
+        /*MAPA**/
+        .mapa{
+            background-color: #06B1EC;
+            display: flex;
+            padding-top: 1px;
+            padding-bottom: 1rem;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        .mapa h1{
+            color: white;
+            font-size: x-large;
+        }
+        .mapa #mapabutton{
+            text-decoration: none;
+            background-color: #8ed2ed;
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        .mapa #mapabutton:hover{
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        /*MAPA FIN**/
+
+            /*FOOTER**/
+        footer{
+            position: relative;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        footer img{
+            border-radius: 15px;
+        }
+        footer .Social
+        {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 0;
+        }
+
+        footer .Social li
+        {
+            list-style: none;
+        }
+        footer .Social li a {
+            font-size: 2em;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            transition: 0.5s;
+        }
+        footer .Social li a:hover{
+            transform: translateY(-10px);
+        }
+        footer p{
+            color: #17234D;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        /*FOOTER FIN**/
+        
+    </style>
+</head>
+<body>
+    <section class="cabeza">
+        <h1>Balneario Dios Padre</h1>
+        <section class="log"><img class="logo" src="Images/Logo.png"/></section>
+    </section>
+    <section class="contenido">
+        <section class="thankYOU">
+            <section class="thanks">
+                <img class="thank" src="Images/Chek.png" width=70 height=70/>
+                <h2>Gracias por su compra</h2>
+            </section>
+        </section>
+        
+        <section class="tabla">
+            <h2>PROPORCIONA AL PERSONAL EL SIGUIENTE CÓDIGO</h2>
+            <section class="codigo">
+                <h3>TEAY011018MHGRMLA8</h3>
+            </section>
+            <table>
+                <thead>
+                    <tr id="filauno">
+                        <td>CANTIDAD</td>
+                        <td>TIPO DE BOLETO</td>
+                        <td>PRECIO</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CANTIDAD</td>
+                        <td>TIPO DE BOLETO</td>
+                        <td>PRECIO</td>
+                    </tr>
+                    <tr>
+                        <td>CANTIDAD</td>
+                        <td>TIPO DE BOLETO</td>
+                        <td>PRECIO</td>
+                    </tr>
+                    <tr>
+                        <td>CANTIDAD</td>
+                        <td>TIPO DE BOLETO</td>
+                        <td>PRECIO</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">TOTAL</td>
+                        <th>$...</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="fecha">
+            <h2>Fecha de llegada</h2>
+            <section class="date">
+                <img src="Images/Date.png" width="20px"height="20px"/>
+                <p id="fechallegada">Enero 02, 2022</p>
+            </section>
+        </section>
+    </section>
+
+    <section class="mapa">
+        <h1>¿Cómo llegar al lugar?</h1>
+        <a id="mapabutton" href="https://goo.gl/maps/TqFKdnqCBDwvHU2AA"target="_blank">Ubicación</a>
+    </section>
+    <footer id="redes">
+        <ul class="Social">
+            <li><a href="https://m.facebook.com/padiospadre/"target="_blank"><img src="Face.png"/></a></li><!--Face-->
+            <li><a href="http://www.padiospadre.com.mx/"target="_blank"><img src="Page.png"/></a></li><!--Página-->
+            <li><a href="https://instagram.com/balneariodiospadreoficial?igshid=YmMyMTA2M2Y="target="_blank"><img src="Instagram.png"/></a></li><!--Insta-->
+        </ul>
+        <h4>Visítanos para más información y diversión.</h4>
+        <p>©2022 DAY. | Derechos reservados</p>
+    </footer>
+    <php>
+
+    </php>
+</body>
+</html>
